@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+.common{
+    width: 600px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.fast1{
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom right,red,yellow,green);
+}
+.fast2{
+    margin-top: 20px;
+    background-image: radial-gradient(red 10%,yellow 40%,green 50%);
+}
+.fast3{
+    margin-top: 20px;
+    background-image: conic-gradient(red 45deg,green 45deg,blue 10deg);
+}
